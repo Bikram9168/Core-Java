@@ -1,7 +1,11 @@
 public class Arithmetic {
     public static void main(String[] args) {
-        int num = 10;
-        System.out.print("The number is :"+ num);
-        
+        int a = 2;
+        int b = 3;
+        int c = a & b;
+        int d = a | b;
+        int e = a ^ b;
+        int f = ~a;
+        System.out.println(c + " , "+d+" , "+e+" , "+f);
     }
 }
