@@ -10,7 +10,7 @@ public class Demo {
         int[] rollNums = new int[size];
         System.out.println("Enter the elements of Array : ");
         
-        for(int i = 0; i < size; i++)
+        for(int i = 0 ; i < rollNums.length ; i++)
         {
             rollNums[i] = input.nextInt();
         }
@@ -22,3 +22,4 @@ public class Demo {
         }
     }
 }
+
